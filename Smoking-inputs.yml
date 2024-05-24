@@ -1,0 +1,84 @@
+inputModule1:
+  class: File
+  path: js/read-potential-cases-fhir.js
+inputModule2:
+  class: File
+  path: python/smoking-cigar---primary.py
+inputModule3:
+  class: File
+  path: python/smoking-cessation---primary.py
+inputModule4:
+  class: File
+  path: python/smoking-stopped---primary.py
+inputModule5:
+  class: File
+  path: python/smoking-fagerstrom---primary.py
+inputModule6:
+  class: File
+  path: python/smoking-advice---primary.py
+inputModule7:
+  class: File
+  path: python/smoking-exsmoker---primary.py
+inputModule8:
+  class: File
+  path: python/smoking-vtobacco---primary.py
+inputModule9:
+  class: File
+  path: python/referral-smoking---primary.py
+inputModule10:
+  class: File
+  path: python/smoking-contraindicated---primary.py
+inputModule11:
+  class: File
+  path: python/smoking---primary.py
+inputModule12:
+  class: File
+  path: python/smoking-amount---primary.py
+inputModule13:
+  class: File
+  path: python/smoking-reasons---primary.py
+inputModule14:
+  class: File
+  path: python/smoking-replacement---primary.py
+inputModule15:
+  class: File
+  path: python/smoking-stopping---primary.py
+inputModule16:
+  class: File
+  path: python/smoking-community---primary.py
+inputModule17:
+  class: File
+  path: python/smoking-nonsmoker---primary.py
+inputModule18:
+  class: File
+  path: python/smoking-restarted---primary.py
+inputModule19:
+  class: File
+  path: python/smoking-therapy---primary.py
+inputModule20:
+  class: File
+  path: python/smoking-start---primary.py
+inputModule21:
+  class: File
+  path: python/smoking-trying---primary.py
+inputModule22:
+  class: File
+  path: python/smoking-scale---primary.py
+inputModule23:
+  class: File
+  path: python/smoking-advisor---primary.py
+inputModule24:
+  class: File
+  path: python/smoking-provided---primary.py
+inputModule25:
+  class: File
+  path: python/smoking-nicotine---primary.py
+inputModule26:
+  class: File
+  path: python/smoking-administration---primary.py
+inputModule27:
+  class: File
+  path: python/smoking-followup---primary.py
+inputModule28:
+  class: File
+  path: python/output-cases.py
