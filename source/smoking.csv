@@ -36,13 +36,8 @@ ZG23300,readv2
 9km..11,readv2
 E251000,readv2
 E251z00,readv2
-ZV11600,readv2
 E251.00,readv2
-ZV4K000,readv2
-137h.00,readv2
-ZV6D800,readv2
 E251300,readv2
-1371,readv2
 E251100,readv2
 8HTK.00,readv2
 9NS0200,readv2
@@ -93,6 +88,11 @@ ZRh4.11,readv2
 137G.00,readv2
 ZRaM.00,readv2
 ZRao.00,readv2
+ZV11600,readv2
+ZV6D800,readv2
+ZV4K000,readv2
+137h.00,readv2
+1371,readv2
 9N2k.00,readv2
 8H7i.00,readv2
 8B3f.00,readv2
