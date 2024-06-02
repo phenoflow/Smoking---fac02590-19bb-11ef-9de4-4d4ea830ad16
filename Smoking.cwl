@@ -74,8 +74,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: smoking-advice---primary/output
-  smoking-vtobacco---primary:
-    run: smoking-vtobacco---primary.cwl
+  smoking-dependence---primary:
+    run: smoking-dependence---primary.cwl
     out:
     - output
     in:
@@ -95,7 +95,7 @@ steps:
         source: inputModule9
       potentialCases:
         id: potentialCases
-        source: smoking-vtobacco---primary/output
+        source: smoking-dependence---primary/output
   smoking-contraindicated---primary:
     run: smoking-contraindicated---primary.cwl
     out:
@@ -239,8 +239,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: smoking-trying---primary/output
-  smoking-advisor---primary:
-    run: smoking-advisor---primary.cwl
+  smoking-abuse---primary:
+    run: smoking-abuse---primary.cwl
     out:
     - output
     in:
@@ -250,6 +250,28 @@ steps:
       potentialCases:
         id: potentialCases
         source: smoking-scale---primary/output
+  smoking-tobacco---primary:
+    run: smoking-tobacco---primary.cwl
+    out:
+    - output
+    in:
+      inputModule:
+        id: inputModule
+        source: inputModule24
+      potentialCases:
+        id: potentialCases
+        source: smoking-abuse---primary/output
+  smoking-advisor---primary:
+    run: smoking-advisor---primary.cwl
+    out:
+    - output
+    in:
+      inputModule:
+        id: inputModule
+        source: inputModule25
+      potentialCases:
+        id: potentialCases
+        source: smoking-tobacco---primary/output
   smoking-provided---primary:
     run: smoking-provided---primary.cwl
     out:
@@ -257,7 +279,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule24
+        source: inputModule26
       potentialCases:
         id: potentialCases
         source: smoking-advisor---primary/output
@@ -268,7 +290,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule25
+        source: inputModule27
       potentialCases:
         id: potentialCases
         source: smoking-provided---primary/output
@@ -279,7 +301,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule26
+        source: inputModule28
       potentialCases:
         id: potentialCases
         source: smoking-nicotine---primary/output
@@ -290,7 +312,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule27
+        source: inputModule29
       potentialCases:
         id: potentialCases
         source: smoking-administration---primary/output
@@ -301,7 +323,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule28
+        source: inputModule30
       potentialCases:
         id: potentialCases
         source: smoking-followup---primary/output
@@ -417,6 +439,14 @@ inputs:
     type: File
   inputModule28:
     id: inputModule28
+    doc: Python implementation unit
+    type: File
+  inputModule29:
+    id: inputModule29
+    doc: Python implementation unit
+    type: File
+  inputModule30:
+    id: inputModule30
     doc: Python implementation unit
     type: File
 outputs:
