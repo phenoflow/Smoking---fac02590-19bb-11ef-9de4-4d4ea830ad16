@@ -21,7 +21,7 @@ inputModule7:
   path: python/smoking-exsmoker---primary.py
 inputModule8:
   class: File
-  path: python/smoking-vtobacco---primary.py
+  path: python/smoking-dependence---primary.py
 inputModule9:
   class: File
   path: python/referral-smoking---primary.py
@@ -66,19 +66,25 @@ inputModule22:
   path: python/smoking-scale---primary.py
 inputModule23:
   class: File
-  path: python/smoking-advisor---primary.py
+  path: python/smoking-abuse---primary.py
 inputModule24:
   class: File
-  path: python/smoking-provided---primary.py
+  path: python/smoking-tobacco---primary.py
 inputModule25:
   class: File
-  path: python/smoking-nicotine---primary.py
+  path: python/smoking-advisor---primary.py
 inputModule26:
   class: File
-  path: python/smoking-administration---primary.py
+  path: python/smoking-provided---primary.py
 inputModule27:
   class: File
-  path: python/smoking-followup---primary.py
+  path: python/smoking-nicotine---primary.py
 inputModule28:
+  class: File
+  path: python/smoking-administration---primary.py
+inputModule29:
+  class: File
+  path: python/smoking-followup---primary.py
+inputModule30:
   class: File
   path: python/output-cases.py
